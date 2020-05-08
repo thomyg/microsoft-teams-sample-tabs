@@ -3,8 +3,15 @@
     Layout = "_Layout";
 }
 
+
 <script>
     //add call to microsoftTeams here.
+    microsoftTeams.initialize();
+
+    function sendChatMsg() {
+
+        alert('sendChatMsgClicked');
+    }
 </script>
 
 <h1 style="color:#6364a5">Personal Tab</h1>
@@ -12,3 +19,6 @@
     <img src="~/Images/teamsIcon.png" alt="teams icon" style="margin:50px" /><br />
 </p>
 <p>This is your personal tab!</p>
+<button class="appButton" id="btn_sendChatMsg" onclick="sendChatMsg()">
+    Send Chat Message
+</button>
