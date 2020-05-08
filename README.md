@@ -14,6 +14,8 @@ extensions:
 ---
 # Microsoft Teams tab samples
 
+Repo is a fork of the original Microsoft one, but with an update to APS.NET Core 3.1!
+
 This repository contains samples for building apps with tabs in ASP.NET Core on the Microsoft Teams platform. For complete documentation, see [Microsoft Teams Platform documentation](https://aka.ms/teamsdev).
 
 ## Samples List
